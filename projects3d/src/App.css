@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Netflix', sans-serif;
+    src: url('src/assets/fonts/NetflixSans-Regular.otf');
+}
+
+
+.regular {
+    font-family: 'Netflix', sans-serif;
+}
+
+.hovered-btn:hover {
+    color: white;
+    border: 1px solid white;
+}
