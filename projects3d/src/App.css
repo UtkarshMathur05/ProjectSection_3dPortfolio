@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 @font-face {
     font-family: 'Netflix-R';
     src: url('/fonts/NetflixSans-Regular2.otf') format('opentype');
@@ -8,6 +12,11 @@
     src: url('/fonts/NetflixSans-Bold.otf') format('opentype');
 }
 
+@font-face {
+    font-family: 'Netflix-M';
+    src: url('/fonts/NetflixSans-Medium.otf') format('opentype');
+}
+
 .myregular {
     font-family: 'Netflix-R', sans-serif;
 }
@@ -16,16 +25,31 @@
     font-family: 'Netflix-B', sans-serif;
 }
 
+.mymedium {
+    font-family: 'Netflix-M', sans-serif;
+}
+
 .hovered-btn:hover {
     color: white;
     border: 1px solid white;
 }
 
 .vignette {
-    position: fixed;
-    top: 0;
+    box-shadow: 0 0 200px rgba(0, 0, 0, 0.9) inset;
+}
+
+.bottom-blur {
+    position: absolute;
+    bottom: 0;
     left: 0;
     width: 100%;
-    height: 100%;
-    box-shadow: 0 0 200px rgba(0, 0, 0, 0.9) inset;
+    height: 40%;
+
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+
+    mask-image: linear-gradient(to top, rgba(0, 0, 0, 1) 5%, rgba(0, 0, 0, 0) 100%);
+    -webkit-mask-image: linear-gradient(to top, rgba(0, 0, 0, 1) 5%, rgba(0, 0, 0, 0) 100%);
+
+    pointer-events: none;
 }
