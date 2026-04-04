@@ -5,7 +5,7 @@ const Landing = () => {
     const navigate = useNavigate()
     return (
         <>
-            <div className='bg-[#141414] h-screen w-screen text-white flex flex-col items-center justify-center gap-10 regular'>
+            <div className='bg-[#141414] h-screen w-screen text-white flex flex-col items-center justify-center gap-10 myregular'>
                 <h1 className='text-5xl'>Who's Watching?</h1>
                 <div className='flex items-center justify-center text-white gap-10'>
                     <Cards onClick={() => navigate('/design')}
