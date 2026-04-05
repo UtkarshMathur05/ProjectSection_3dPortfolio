@@ -2,6 +2,19 @@ html {
     scroll-behavior: smooth;
 }
 
+/* Hides scrollbar for Chrome, Safari and Opera */
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hides scrollbar for IE, Edge and Firefox */
+.hide-scrollbar {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
 @font-face {
     font-family: 'Netflix-R';
     src: url('/fonts/NetflixSans-Regular2.otf') format('opentype');

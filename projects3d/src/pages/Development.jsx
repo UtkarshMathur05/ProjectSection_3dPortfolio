@@ -17,7 +17,7 @@ const Development = () => {
                 </div>
                 <ProjectsSection />
             </div>
-            <span className="bg-black text-white py-4 block text-sm text-body sm:text-center myregular">© 2023 <a href="https://flowbite.com/" class="hover:underline">Utkarsh.dev™</a>. All Rights Reserved.</span>
+            <span className="bg-black text-white py-4 block text-sm text-body sm:text-center myregular">© 2023 <a href="https://utkarsh.dev/" class="hover:underline">Utkarsh.dev™</a>. All Rights Reserved.</span>
         </>
     )
 }
