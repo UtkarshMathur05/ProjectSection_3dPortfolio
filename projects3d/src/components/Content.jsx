@@ -1,12 +1,12 @@
 import React from 'react'
 
-const Content = () => {
+const Content = ({ content }) => {
     return (
         <>
             <div className='w-fit ml-10 bottom-40 absolute'>
                 <img src="/images/logo.png" alt="Logo" width={90} />
                 <div className='text-5xl mb-3 mt-2 mybold'>Utkarsh Mathur</div>
-                <div className='myregular mb-5 w-140'>In a country of developers, digital stability rests on a MERN-stack architect shipping complex code—while desperately trying to dodge a 404.</div>
+                <div className='myregular mb-5 w-140'>{content}</div>
 
                 {/* Changed <button> to <a>, added href, target, and rel attributes */}
                 <a

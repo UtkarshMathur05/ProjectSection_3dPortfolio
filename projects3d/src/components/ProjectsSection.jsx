@@ -64,7 +64,7 @@ const ProjectsSection = () => {
                         </button>
 
                         {/* Dynamic Content injected from the selected project */}
-                        <h2 className="text-[#3BBAF4] text-4xl mybold mb-4">
+                        <h2 className="text-[#E50914] text-4xl mybold mb-4">
                             {selectedProject.title}
                         </h2>
 
