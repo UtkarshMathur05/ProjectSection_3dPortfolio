@@ -10,7 +10,9 @@ const Development = () => {
     return (
         <>
             <div className='bg-black'>
-                <div id="home" className='bg-[#141414] min-h-screen w-full text-white bg-[url("/images/bg-6.png")] bg-cover bg-center vignette relative'>
+                <div id="home"
+                    className='bg-[#141414] min-h-screen w-full text-white bg-[url("/images/bg-6.png")] bg-cover bg-center vignette relative'
+                    fetchpriority="high">
                     <Navibar page="red" />
                     <div className='bottom-blur bg-gradient-to-t from-[#000000] to-transparent'></div>
                     <Content content="In a world of rigid grids, one visual maestro orchestrates pure pixel magic—while desperately dodging 'make it pop' requests." />
