@@ -10,7 +10,7 @@ const Development = () => {
     return (
         <>
             <div className='bg-black'>
-                <div id="home" className='bg-[#141414] min-h-screen w-full text-white bg-[url("/images/bg2.jpg")] bg-cover bg-center vignette relative'>
+                <div id="home" className='bg-[#141414] min-h-screen w-full text-white bg-[url("/images/bg-3.png")] bg-cover bg-center vignette relative'>
                     <Navibar page="yellow" />
                     <div className='bottom-blur bg-gradient-to-t from-[#000000] to-transparent'></div>
                     <Content content="In a country of developers, digital stability rests on a MERN-stack architect shipping complex code—while desperately trying to dodge a 404." />
