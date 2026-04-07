@@ -59,18 +59,6 @@ const Navibar = ({ page }) => {
 
                 <div className='flex text-base font-medium text-gray-300 gap-6'>
                     {/* 2. UPDATE BUTTONS: Call the function with the ID names */}
-                    <button
-                        onClick={() => scrollToSection('home')}
-                        className='hover:text-white transition-colors'
-                    >
-                        Home
-                    </button>
-                    <button
-                        onClick={() => scrollToSection('projects')}
-                        className='hover:text-white transition-colors'
-                    >
-                        Projects
-                    </button>
                 </div>
 
                 <div className='w-8 h-auto'>

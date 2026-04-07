@@ -11,7 +11,7 @@ const Development = () => {
         <>
             <div className='bg-black'>
                 <div id="home"
-                    className='bg-[#141414] min-h-screen w-full text-white bg-[url("/images/bg-6.png")] bg-cover bg-center vignette relative'
+                    className='bg-[#141414] min-h-screen w-full text-white bg-[url("/images/bg-10.png")] bg-cover bg-center vignette relative'
                     fetchpriority="high">
                     <Navibar page="red" />
                     <div className='bottom-blur bg-gradient-to-t from-[#000000] to-transparent'></div>

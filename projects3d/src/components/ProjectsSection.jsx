@@ -6,7 +6,7 @@ const projectsData = [
     {
         id: 1,
         title: "HybridX",
-        description: "A cross-platform mobile application designed to bridge the gap between legacy systems and modern cloud infrastructure.",
+        description: "Developed a unified MERN-stack educational platform connecting students and admins, featuring centralized notes, 10,000+ JEE MCQs, and performance analytics.",
         techStack: ["React Native", "Node.js", "MongoDB", "Express", "Mongoose"],
         link: "https://hybrideducationhub.in/"
     },
@@ -15,7 +15,7 @@ const projectsData = [
         title: "3D Portfolio",
         description: "A fully interactive, 3D developer portfolio built with React Three Fiber. It features a custom animated avatar, dynamic camera navigation, immersive background audio, and interactive 3D objects to showcase projects and skills in a virtual workspace.",
         techStack: ["React.js", "React Three Fiber", "Tailwind CSS", "Howler.js", "GLTF"],
-        link: "https://github.com/yourusername/nextflix"
+        link: "https://utkarshmathur.vercel.app/"
     },
     {
         id: 3,

@@ -18,9 +18,9 @@ const Landing = () => {
                     />
 
                 </div>
-                <div>
-                    <button className='text-lg text-gray-500 tracking-wider border border-gray-500 px-8 py-1 mt-8 hovered-btn' >Back</button>
-                </div>
+                {/* <div>
+                    <button className='text-lg text-gray-500 tracking-wider border border-gray-500 px-8 py-1 mt-8 hovered-btn' >Welcome</button>
+                </div> */}
             </div>
         </>
     )
